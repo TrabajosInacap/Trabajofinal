@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="113dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/caballo" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="El Caballo en 2018 debe permanecer humilde y no tomar sus sueños para realidades. De hecho, las personas nacidas durante un Año del Caballo tienden a ser muy auto-satisfechos, y desconcertados por sus propios logros.  Durante el Año del Perro 2018, el Caballo está más centrado en las necesidades de su hogar y su familia. Es para mejor, porque es un período durante el cual sus planes para largos viajes lejanos son puestos en espera.  En 2018, el Caballo también puede enfrentarse a una disputa familiar que puede llevar a juicio. Por lo tanto, es crucial para el Caballo permanecer discreto con las personas con las que trabaja diariamente, con respecto a su situación familiar y las acciones relacionadas que piensa emprender. En el caso de una disputa legal, el Caballo hará bien para asegurarse de que ha mantenido documentos valiosos en orden, en lugar de tomar una oportunidad en el giro de los acontecimientos.  Recordemos que un año puesto bajo la influencia del elemento Tierra en su forma Yang requiere buena gestión y organización irreprochable."
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+</LinearLayout>
+

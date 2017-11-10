@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="113dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/mono" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Durante el curso de 2018, el Mono puede esperar un estancamiento de los proyectos que están cerca de su corazón. Así, el Mono es conducido a luchar en varios frentes al mismo tiempo, mientras que mantiene un ojo vigilante en la gente ambivalente, a quien debe mantener a distancia mientras que les deja creer que tienen su cooperación completa. Se esperan disputas o malentendidos en reuniones de negocios, asuntos presupuestarios o conflictos de intereses relacionados con el liderazgo de su empresa.  A nivel personal, familiar o profesional, muchos Monos se dan cuenta en 2018 de sus acciones perdidas y las consecuencias positivas o negativas de su comportamiento pasado. El Año del Perro 2018 es tanto un período de recompensa como de juicio y pago de deudas por los 12 signos del zodíaco chino, de los cuales el Mono puede sentirse particularmente preocupado.  Cualquier viaje caro debe ser evitado. El Mono en 2018 también debe permanecer vigilante con respecto a su dieta, la calidad de su sueño, y su salud en general. Este no es el momento para el Mono para cancelar o retrasar su cita con su médico."
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

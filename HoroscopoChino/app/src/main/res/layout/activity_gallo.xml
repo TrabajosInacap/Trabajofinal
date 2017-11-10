@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="92dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/gallo" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="384dp"
+        android:fontFamily="casual"
+        android:text="2018 es un buen año para el Gallo, ya que se coloca bajo el signo de protección y regeneración. Los obstáculos son importantes, pero lejos de ser insuperables para el Gallo bien informado. Los encuentros fértiles y muchos viajes fuera de casa son de esperar, lo que agregará especias a la vida agitada del Gallo. Las nuevas amistades con personas de diversos orígenes enriquecen en gran medida la vida social del Gallo en 2018. En los negocios, las relaciones privadas pueden convertirse en parte de las negociaciones comerciales emprendidas por el 10º signo zodiacal chino del calendario lunar.  Sin embargo, el Gallo también puede esperar experimentar períodos cortos de estancamiento, durante los cuales puede sentir una inseguridad temporal en cuanto a su vida sentimental, pero nada que preocuparse innecesariamente.  Sorprendentemente, el Gallo, por lo general bastante directo en su relación con los demás, añade diplomacia a la panoplia de sus talentos durante el curso del Año del Perro 2018. Incluso puede llegar a transmitir con éxito mensajes discretos y eficaces que son muy queridos por su corazón o importantes para su billetera. Además, el Gallo puede esperar ser reembolsado o devuelto un objeto que él pensaba que se había perdido para siempre.  Sin embargo, el éxito de 2018 depende principalmente de la cantidad y de la calidad de las relaciones que el Gallo ha logrado desarrollar y su capacidad para evitar las dificultades que pueden surgir de su baja capacidad durante el Año del Perro 2018 para establecer una clara separación entre asuntos de negocios y sentimientos personales."
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

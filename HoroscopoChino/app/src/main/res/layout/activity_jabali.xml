@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="113dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/jabali" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="En 2018, el Cerdo se enfrenta a sus ansiedades y los errores de juicio que pudo haber cometido en el pasado. Las cuestiones financieras pueden causarle problemas y alterar sus hábitos, sabiendo que el Cerdo ama su comodidad sobre todo. El Cerdo debe hacerse cargo de sus gastos, especialmente a mediados del año, y sobre todo alrededor de mayo de 2018, con el riesgo de verse atrapado en problemas de dinero o darse cuenta demasiado tarde de que ha invertido en una pérdida.  En su trabajo, el Cerdo finalmente entiende que es necesario mantener la cabeza fría y evitar cualquier situación conflictiva, a menos que pueda estar seguro de ganar el juego. Una desilusión en las relaciones profesionales y amistosas del Cerdo puede ocurrir durante el Año del Perro 2018. Puede ser una traición o una estafa. El Cerdo, para evitar cualquier problema adicional, tiene todo el interés en pagar sus cuentas y liquidar sus deudas sin demasiada demora.  El Cerdo también puede ser llevado a arrepentirse de los amigos del pasado con los que perdió el contacto. Finalmente, una conciencia más bien brutal puede forzar al Cerdo a regresar a la realidad ya incitarlo a abandonar finalmente los sueños extravagantes que mantuvo en años anteriores."
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="113dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/conejo" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text='Durante el Año del Perro de la Tierra 2018, las preocupaciones de los años anteriores se disipan, mientras que el Conejo finalmente comienza a reunir el fruto de sus esfuerzos.  Puntaje del Año del Perro 2018 para el Conejo: 7/10 Resolución del Año Nuevo chino 2018 para el Conejo: "La cosecha". 2018 es un año muy bueno para el Conejo. Ya sea en el amor o en los negocios, el año lunar chino de 2018 es también una oportunidad para el Conejo para poner orden a su negocio.  El Conejo puede esperar alcanzar el éxito en todas las áreas que se dedica durante el Año del Perro de la Tierra 2018. El Conejo también maneja con gracia y habilidad para eludir cualquier situación de tensión o crisis que enfrenta en 2018.'
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+

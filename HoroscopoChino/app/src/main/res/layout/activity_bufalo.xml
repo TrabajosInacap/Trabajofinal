@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="113dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/bufalo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text=" En 2018 la paciencia del Búfalo se pone a la tensión. Sin embargo, el año es bastante bueno en general.
+
+Dentro de la casa, la falta de discernimiento y de comprensión en la pareja puede ser la causa de disputas transitorias. El intercambio injusto de una propiedad importante a los ojos del Búfalo también corre el riesgo de sacarlo de su mente.
+
+Las preocupaciones y ansiedades que a veces lo obsesionan desaparecerán de la noche a la mañana cuando el Búfalo se vuelva consciente de sus superficialidades.
+
+En 2018, el Búfalo no debe perder de vista sus metas, y siempre mantener la fe en sus habilidades. La paciencia que el Búfalo podrá exhibir durante este período turbulento debe llevar, más adelante, frutas inesperadas y beneficiosas. Las experiencias sufridas durante el Año chino 2018 sólo pueden solidificar la resistencia del Búfalo, cuya robustez ya es legendaria. En el peor de los casos, el Búfalo estará listo para hacer un barrido limpio del pasado con el fin de reconstruir relaciones más sanas en el amor, la amistad y sobre todo en el trabajo."
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+

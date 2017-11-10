@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="113dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/cabra" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text='En 2018, la Cabra (Oveja) aprende a decir no y logra priorizar sus objetivos personales para sí mismo contra los deseos de sus seres queridos. También se da cuenta de que debe confiar sólo en sí mismo para avanzar en la vida y tener éxito en sus proyectos.  Puntaje del Año del Perro de Tierra 2018 para el Caballo: 6/10 Resolución del Año Nuevo Chino 2018 para el Caballo: "Re-evaluación". En un nivel sentimental, un Año del Perro puede ser todo fuego y chispas para la Cabra. De hecho, las Cabras solo pueden tener muchas oportunidades para reunirse con amantes serios durante este período.  El año 2018 no es diferente a los años anteriores del Perro, y muchas Cabras se sorprenderán por la facilidad con la que pueden atraer el interés de posibles parejas. Sin embargo, la Cabra debe recordar mirar su espalda en todo momento y no confiar en sus amigos sobre los detalles de su historia de amor, sobre todo con aquellos que no forman parte del mismo triángulo de compatibilidad que ella: el triángulo de compatibilidad de la Cabra incluye el Conejo y el Cerdo.'
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+</LinearLayout>
+

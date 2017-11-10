@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="104dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/dragon" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="casual"
+        android:text="En las tablas de compatibilidad de la astrología china, el signo del Dragón se opone al signo del Perro. Por lo tanto, el Año del Perro 2018 no es realmente dar ningún descanso al Dragón. En realidad, el Dragón está bastante menos a gusto que en 2017. Sin embargo, el elemento Tierra con una polaridad Yang, elemento del año 2018, está en armonía con el elemento estable del Dragón, que es también Tierra. Debido a esta correspondencia, es capaz de enfrentar con más confianza los eventos negativos que puede tener que enfrentar si no está en su guardia.  En 2018, el Dragón no sólo debe controlar sus finanzas, sino también sus amores. Sus proyectos podrían tomar otra dirección que él había deseado, a pesar de todos los esfuerzos adicionales que estará dispuesto a dedicar para cambiar la situación. El Dragón comprenderá la importancia de asociaciones útiles tanto como la importancia de sus profundas convicciones y elecciones. Algunos enemigos antiguos o rivales pueden resurgir del pasado y perturbarlo en sus actividades.  Para superar el Año del Perro de la Tierra 2018 sin demasiados arañazos, el Dragón debe aprender a moderar su indomable orgullo y su carácter algo grueso. Es aprendiendo a regar su vino que el Dragón recapturará algo de lo que se arriesga a perder en 2018."
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

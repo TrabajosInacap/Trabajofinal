@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="113dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/serpiente" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="De manera general, la Serpiente desarrolla una profunda reflexión sobre sus valores y prioridades en 2018, lo que la permite clasificar mejor la utilidad de lo superfluo en su vida cotidiana y solidificar su posición socio-profesional.  Sin embargo, antes de intentar consolidar sus logros, la Serpiente primero debe deshacerse de los elementos superficiales de su entorno y distanciarse de los individuos que insidiosamente le impiden progresar. Para la Serpiente, se trata más de cambiar de dirección y reestructurar sus ambiciones, en lugar de considerar un cambio profundo y total en su vida y sus aspiraciones.  Una vez limpiado su ambiente, y gracias a su habilidad única para ver detrás de las paredes, la Serpiente estará en la parte superior de su forma para reorganizar su existencia a lo largo del Año del Perro de la Tierra 2018.  En resumen, 2018 es un año suave y tranquilo para la Serpiente, bajo el signo del éxito subyacente, siempre que haga los esfuerzos que se prescriben."
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

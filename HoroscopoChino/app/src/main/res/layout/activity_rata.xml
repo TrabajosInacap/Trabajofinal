@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="136dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/rata" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="En 2018, la Rata puede esperar vivir un año bastante mixto en general. El primer signo-animal del calendario chino se ve obligado a redoblar sus esfuerzos y a ser particularmente paciente cuando se refiere a su vida privada.  Precaución también es necesario en 2018 para la Rata profesional, que se debe concentrar discretamente en la construcción de nuevos proyectos, en lugar de aventurarse en unas inversiones que pueden ser peligrosas y riesgosas para ella durante un Año del Perro."
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="AMOR, NACIMIENTO Y REUNIONES Durante el Año del Perro de Tierra 2018, los solteros son llevados a diferenciar entre una pasión efímera y el amor verdadero. La Rata cuya relación sentimental es reciente pero sólida no debe tratar de formalizar su unión por un matrimonio durante el curso del año lunar chino 2018. Es bueno recordar que para la Rata, un año del Perro no es propicio para un matrimonio."
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+
+

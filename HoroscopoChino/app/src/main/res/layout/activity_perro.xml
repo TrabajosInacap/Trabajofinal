@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context="com.example.aleeshep1.horoscopochino.Rata"
+    android:weightSum="1">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="97dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/perro" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="El Año Nuevo Chino 2018 marca el inicio de la renovación del ciclo astral de los Perros. En los últimos años, muchas personas nacidas durante el Año del Perro han tenido que enfrentar y superar muchos obstáculos. Ya sea en el trabajo o en su vida privada, a veces las situaciones dolorosas han forjado el carácter de los Perros, así que muchos de ellos se vieron obligados a aprender a ser menos altruistas para preservarse. Desafortunadamente, esto también puede haber resultado en un aumento de la soledad, o en la pérdida de componentes esenciales de su entorno de vida.  Pero bendijo al Perro que finalmente ve su año chino ocurrir. Todas las decepciones y desgracias pasadas se secan. En 2018, el Perro puede disfrutar de la influencia protectora y benevolente del Año del Perro 2018. El Perro revela a sí mismo los secretos de sus deseos más íntimos, sin sentir ninguna vergüenza. Muchos años de introspección y pensamiento también han comenzado finalmente a dar fruto, ya que revelan más claramente el camino de una espiritualidad más profunda y más sólida.  El Perro también logra dominar las muchas ansiedades y dudas que lo han estado plagando durante muchos años y han sido una fuente de bloqueo en su vida. El aumento de la madurez del Perro tendrá efectos positivos a lo largo de 2018"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
